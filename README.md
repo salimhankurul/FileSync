@@ -1,6 +1,5 @@
 # Why This Exist
-This was a hoby project, Purpose of this project was to create program that upload folder and its subdirectory to your local server.
-It clears clutter by combining 2D box that colliding to each other and makes them 1 2D box
+This was a hoby project, Purpose of this project was to create program that uploads everything in a directory to your local server as is.
 
 ## Client is Windows app and its uses
 * C++20 filesystem library
@@ -16,11 +15,11 @@ It clears clutter by combining 2D box that colliding to each other and makes the
 
 # How To use
 
-  ```
+ ```
 dropbox-client.exe TestProjectUpload
 ```
 
-or   or you can give it a target path
+or you can give it a target path
 
 ```
 dropbox-client.exe TestProjectUpload "C:\Users\kurul\Desktop\Project To Upload"
@@ -29,5 +28,12 @@ dropbox-client.exe TestProjectUpload "C:\Users\kurul\Desktop\Project To Upload"
 
 # Example 
 ![](https://github.com/salimhankurul/dropbox-clone/blob/main/gif1.gif)
+
+# TODO's when find free time
+* Add file extention filterin
+* Add 2D GUI using Imgui
+* Detect file changes and automate upload process
+* 
+
 
 
