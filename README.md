@@ -11,14 +11,16 @@ Server is written with NodeJS
 
   ```
 dropbox-client.exe TestProjectUpload
+```
 
 or   or you can give it a target path
 
+```
 dropbox-client.exe TestProjectUpload "C:\Users\kurul\Desktop\Project To Upload"
 ```
 
 
 # Example 
-![](https://github.com/salimhankurul/2D-Box-Combiner/blob/main/ezgif-2-5825d0bd16.gif)
+![](https://github.com/salimhankurul/dropbox-clone/blob/main/gif1.gif)
 
 
