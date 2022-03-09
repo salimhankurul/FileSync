@@ -9,17 +9,13 @@ Server is written with NodeJS
 
 # How To use
 
-  ```cpp
-   //  this will use dropbox-client.exe working directory as target Directory
-		dropbox-client.exe TestProjectUpload
-   ```
-    or you can give it a target path
-    
-   ```cpp
-		dropbox-client.exe TestProjectUpload "C:\Users\kurul\Desktop\Project To Upload"
-   ```
+  ```
+dropbox-client.exe TestProjectUpload
 
-		
+or   or you can give it a target path
+
+dropbox-client.exe TestProjectUpload "C:\Users\kurul\Desktop\Project To Upload"
+```
 
 
 # Example 
