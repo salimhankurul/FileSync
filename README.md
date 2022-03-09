@@ -30,10 +30,10 @@ dropbox-client.exe TestProjectUpload "C:\Users\kurul\Desktop\Project To Upload"
 ![](https://github.com/salimhankurul/dropbox-clone/blob/main/gif1.gif)
 
 # TODO's when find free time
-* Add file extention filterin
+* Add file extension filtering
 * Add 2D GUI using Imgui
 * Detect file changes and automate upload process
-* 
+* Maybe create login & registering system
 
 
 
