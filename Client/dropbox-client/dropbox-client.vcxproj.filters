@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="WinHttpClient">
+      <UniqueIdentifier>{cfe48e5c-28d3-4cba-bb89-d52a035f95b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mics">
+      <UniqueIdentifier>{5d05992d-6f1c-464a-8b34-98d0cb06484b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Handler">
+      <UniqueIdentifier>{3344a80a-938d-4afa-a4b6-474c30951790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base64">
+      <UniqueIdentifier>{75b46470-18e8-45f2-bab5-66ea10b4bc1a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dropbox-client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Handler.cpp">
+      <Filter>Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Mics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WinHttpClient\WinHttpClient.h">
+      <Filter>WinHttpClient</Filter>
+    </ClInclude>
+    <ClInclude Include="WinHttpClient\ATLRegExp.h">
+      <Filter>WinHttpClient</Filter>
+    </ClInclude>
+    <ClInclude Include="WinHttpClient\RegExp.h">
+      <Filter>WinHttpClient</Filter>
+    </ClInclude>
+    <ClInclude Include="WinHttpClient\StringProcess.h">
+      <Filter>WinHttpClient</Filter>
+    </ClInclude>
+    <ClInclude Include="Handler.h">
+      <Filter>Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Mics</Filter>
+    </ClInclude>
+    <ClInclude Include="MetaString.h">
+      <Filter>Mics</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Mics</Filter>
+    </ClInclude>
+    <ClInclude Include="Base64\base64.h">
+      <Filter>Base64</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
